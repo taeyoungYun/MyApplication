@@ -7,13 +7,46 @@
     tools:context="com.example.taeyoung.myapplication.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello Android!"
+        android:layout_width="81dp"
+        android:layout_height="25dp"
+        android:text="hello"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.412" />
+        app:layout_constraintVertical_bias="0.101" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="143dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="90dp"
+        android:layout_height="27dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="93dp"
+        android:layout_height="29dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="260dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CANCEL"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="143dp" />
 
 </android.support.constraint.ConstraintLayout>
